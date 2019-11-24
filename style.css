@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+body{
+  background: black;
+  font-family: 'Overpass Mono', monospace, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vmin;
+  
+}
+h1{
+
+  font-size: 200px;
+  color: rgba(245, 222, 179, 0.694);
+  text-shadow: 0px 0px 50px red;
+
+
+
+}
+
+.bounce{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  transition: 0.5s all;
+}
